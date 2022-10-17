@@ -40,7 +40,7 @@ public class Tarea2 {
                 empleado1.costoHora + "$"
                 + " y el ano que ingreso a trabajar es: " + 
                 empleado1.yearIngreso + " y su ingreso total es de: " +
-                empleado1.calcularTotal() + " $" );
+                empleado1.calcularTotal(4000, 5000, 6000) + " $" );
 
         System.out.println("El empleado se llama: " + empleado2.nombre
                 + " su numero de horas trabajadas es: " + 
@@ -49,13 +49,14 @@ public class Tarea2 {
                 empleado2.costoHora + "$"
                 + " y el ano que ingreso a trabajar es: " + 
                 empleado2.yearIngreso + " y su ingreso total es de: " + 
-                empleado2.calcularTotal() + " $" );
+                empleado2.calcularTotal(2000, 3000, 5000) + " $" );
         
         System.out.println("El empleado " + empleado3.nombre
                 + " tiene un numero de horas de: " + empleado3.horasTrabajadas
                 + " y su costo por hora de trabajo es: " + empleado3.costoHora +
                 "$" + " su ano de ingreso fue el: " + empleado3.yearIngreso + 
-                " y su ingreso total es de: " + empleado3.calcularTotal() + 
+                " y su ingreso total es de: " + 
+                empleado3.calcularTotal(1000, 2000, 3000) + 
                 " $" );
 
     }
